@@ -1,7 +1,5 @@
 # personal-website
 
-This ReadMe provides essential information about setting up and running your personal website. The website is built using React for the front end and Node.js for the back end.
-
 ### Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -15,7 +13,7 @@ This ReadMe provides essential information about setting up and running your per
 
 ## Project Overview
 
-This personal website is designed to showcase your skills, projects, and personal information in an organized and visually appealing manner. The use of React ensures a dynamic and responsive user interface, while Node.js powers the backend for handling server-side functionalities.
+This personal website is designed to showcase my skills, projects, and personal information in an organized and visually appealing manner. The use of React ensures a dynamic and responsive user interface, while Node.js powers the backend for handling server-side functionalities.
 
 ---
 
@@ -34,34 +32,29 @@ Follow these steps to set up the project locally:
 
 Run the following commands:
 
-''' bash
-   git clone <https://github.com/your-username/your-website.git>
-    cd your-website
-    cd client
-    npm install
-    cd ../server
-    npm install
-'''
-
 ## Usage
 
 ### Development
 
 Start the development server:
 
-''' bash
+```bash
 cd web-app
 npm start
-'''
+```
+
 Visit <http://localhost:3000> to view your website during development.
 
 ### Production
 
 Build the React app and start the production server:
+
+```bash
 cd client
 npm run build
 cd ../server
 npm start
+```
 
 ## Folder Structure
 

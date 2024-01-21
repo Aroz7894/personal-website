@@ -30,10 +30,9 @@ for this site was forked from <https://github.com/shloksomani/react-portfolio>.
 
 ## Installation
 
-These command walk through downloading the necessary dependencies, cloning the repo and installing the necessary node modules.  
-Ensure you have NodeJs, NPM and React downloaded first.
+These command walk through downloading the necessary dependencies, cloning the repo and installing the necessary node modules.
 
-Run these commands to confirm node and npm are installed:
+Ensure you have NodeJs, NPM and React downloaded first. Run these commands to confirm node and npm are installed:
 
 ```bash
 node -v

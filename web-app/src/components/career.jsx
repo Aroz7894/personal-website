@@ -45,19 +45,26 @@ class Career extends React.Component {
           id: "current-role",
           title: "Product Architect",
           date: "Dec-2023 - Present",
-          content: "New Team"
+          content1: "Research cutting edge Generative AI topics and architechture and published an external paper on the advancements in generative AI.",
+          content2: "Developed a sandbox tool, called Enterprise Lab, to allow Vanguard crew members free range to previously blocked tools and aws services.",
+          content3: "Led site reliability best practices for the Enterprise lab, including scaling policies, observability and alerting."
         },
         {
           id: "tech-lead",
           title: "Technical Lead",
           date: "Nov-2020 - Dec-2023",
-          content: "lot of stuff"
+          content: "Led development team of 6 developers, of AWS Glue ETL jobs as well as REST and GraphQL APIs that receive over 1 million requests per month",
+          content2: "Architechted a modern ingestion pipeline accross multiple AWS services.",
+          content3: "Was a leader in Site Reliability Engineering for the department, where I lead a community of practice that implemented best practices such as \
+           blue/green deployments, multi-region applications and resilience testing. "
         },
         {
           id: "junior-dev",
           title: "Software Developer",
           date: "Oct-2016 - Nov-2020",
-          content: "front end backend "
+          content: "Worked in an agile development process to maintain and enhance data sourcing applications using Java and Spring framework.",
+          content2: "Built and maintained web pages using JavaScript, Java Server Pages (JSP), AngularJs and HTML.",
+          content3: "Worked on a large migration effort, that included over 30 microservices, to AWS cloud services that cut department costs"
         }
       ]
     };
@@ -124,7 +131,9 @@ class Career extends React.Component {
                             <h5>{content.title}</h5>
                             <h6>{content.date}</h6>
                             <ul>
-                              <li>{content.content}</li>
+                              <li>{content.content1}</li>
+                              <li>{content.content2}</li>
+                              <li>{content.content3}</li>
                             </ul>
                           </div>
                         );

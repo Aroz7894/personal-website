@@ -9,22 +9,24 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "I was born and raised in Philadelphia, Pennsylvania. I graduated from James Madison University in 2016, with degrees in Computer Science and Applied Mathematics. I have been working as a software developer at Vanguard since I graduated. I am currently a \
-            product architect for the Emerging Technology Research Team. I get to spend my time researching the most cutting edge technologies today such as quantum computing, generative AI, tokenization and blockchaining and more. \
-            I help lead pilots and proof of concepts in these areas to help define Vanguards approach moving forward."
+            "As a dedicated full stack developer I am driven by a passion for innovation and a commitment to continuous growth. With experience in both front end and back end systems, \
+            I aspire to make significant strides in my career. Which has led me to recieving certifications in Machine Learning, Site Reliability Engineering, AWS Solutions Architecht and more. \
+            Currently serving as a Product Architect for the Emerging Technology Research Team at Vanguard, my goal is to shape the future of technology. "
         },
         {
           id: "second-p-about",
           content:
-            "I spend my free time reading, playing video games and playing sports, namely snowboarding, tennis and basketball. I am also an avid cooker, and there is nothing I enjoy more \
-            than cooking for friends and family. I enjoy playing video games and working on personal coding projects that interest me. I am lucky  "
+            "Outside the scope of my work life, I find joy and inspiration in various personal hobbies. Whether it's immersing myself in the pages of a captivating book, \
+            exploring virtual worlds through video games or engaging in physical activities like tennis, basketball, and snowboarding. I am also lucky enough to get to travle the world with \
+            my amazing wife Amanda. Additionally, I am an avid cook, finding creative expression and relaxation in the culinary arts. There are few things I love more than getting to cook for family and friends."
         },
         {
           id: "third-p-about",
           content:
-            "I graduated from James Madison University in 2016, with degrees in Computer Science and Applied Mathematics. I have been working as a software developer at Vanguard since i graduated. I am currently a \
-            product architect for the Emerging Technology Research Team. I get to spend my time researching the most cutting edge technologies today such as quantum computing, generative AI, tokenization and blockchaining and more. \
-            I help lead pilots and proof of concepts in these areas to help define Vanguards approach moving forward."
+            "Born and raised in Philadelphia Pennsylvania, I hold a distinguished academic background from James Madison University, specializing in Computer Science, Robotics, and Applied Mathematics. \
+            I transitioned into my current role as a Product Architect, where I lead research and proof of concepts for cutting-edge technologies. At Vanguard, I play a pivotal role in exploring \
+            and implementing advancements in quantum computing, generative AI, tokenization/blockchaining and more. This role allows me to channel my expertise and passion for innovation into pioneering initiatives, \
+            contributing significantly to Vanguard's technological advancements and industry leadership."
         }
       ]
     };
@@ -55,8 +57,7 @@ class About extends React.Component {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="about-me pt-4 pt-md-0">
+                  </div>                  <div className="about-me pt-4 pt-md-0">
                     <div className="title-box-2">
                       <h5 className="title-center">About Me</h5>
                     </div>

@@ -16,7 +16,7 @@ class Navbar extends React.Component {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
 
-    $(".navbar-toggler").on("click", function() {
+    $(".navbar-toggler").on("click", function () {
       if (!$("#mainNav").hasClass("navbar-reduce")) {
         $("#mainNav").addClass("navbar-reduce");
       }
@@ -27,7 +27,7 @@ class Navbar extends React.Component {
       offset: navHeight
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
 
@@ -51,10 +51,10 @@ class Navbar extends React.Component {
       }
     });
 
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
         window.location.pathname.replace(/^\//, "") ===
-          this.pathname.replace(/^\//, "") &&
+        this.pathname.replace(/^\//, "") &&
         window.location.hostname === this.hostname
       ) {
         var target = $(this.hash);
@@ -74,7 +74,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
   }
@@ -118,17 +118,22 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  About
+                  About Me
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
-                  Work
+                <a className="nav-link js-scroll" href="#career">
+                  Career
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#projects">
+                  Personal Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
-                  Contact
+                  Contact Me
                 </a>
               </li>
             </ul>

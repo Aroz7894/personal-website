@@ -14,7 +14,7 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am XYZ</h1>
+              <h1 className="intro-title mb-4">Hello, I am Andrew Rozniakowski</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
@@ -22,7 +22,8 @@ class Intro extends React.Component {
                     strings={[
                       "Front End Developer",
                       "Back End Developer",
-                      "Software Engineer"
+                      "Architect",
+                      "Full Stack Engineer"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -31,15 +32,34 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3">
-                <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
-                  role="button"
-                >
-                  View My Work
-                </a>
-              </p>
+              <div className="socials">
+                <ul>
+                  <li>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/andrew-rozniakowski-2b63a6aa/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="ico-circle">
+                        <i className="ion-social-linkedin"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/Aroz7894"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="ico-circle">
+                        <i className="ion-social-github"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

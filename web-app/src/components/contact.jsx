@@ -103,9 +103,8 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
+                          Whether you want to discuss a project or technology, reach out for work opportunities,
+                          request my resume or just say hi, I'd love to hear from you!
                           <br />
                           Simply fill the from and send me an email.
                         </p>
@@ -118,35 +117,26 @@ class Contact extends React.Component {
                       <div className="socials">
                         <ul>
                           <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
                           </li>
                           <li>
                             <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
+                              href="https://www.linkedin.com/in/andrew-rozniakowski-2b63a6aa/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/Aroz7894"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-github"></i>
                               </span>
                             </a>
                           </li>

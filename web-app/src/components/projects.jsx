@@ -8,18 +8,17 @@ import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
-class Portfolio extends React.Component {
+class Projects extends React.Component {
   render() {
     return (
-      <section id="work" className="portfolio-mf sect-pt4 route">
+      <section id="projects" className="projects-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
-                <h3 className="title-a">Portfolio</h3>
+                <h3 className="title-a">Personal Projects</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Put Personal Projects Here
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -399,4 +398,4 @@ class Portfolio extends React.Component {
   }
 }
 
-export default Portfolio;
+export default Projects;

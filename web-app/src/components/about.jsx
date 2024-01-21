@@ -1,60 +1,30 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+// import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
-      skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
-      ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I was born and raised in Philadelphia, Pennsylvania. I graduated from James Madison University in 2016, with degrees in Computer Science and Applied Mathematics. I have been working as a software developer at Vanguard since I graduated. I am currently a \
+            product architect for the Emerging Technology Research Team. I get to spend my time researching the most cutting edge technologies today such as quantum computing, generative AI, tokenization and blockchaining and more. \
+            I help lead pilots and proof of concepts in these areas to help define Vanguards approach moving forward."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I spend my free time reading, playing video games and playing sports, namely snowboarding, tennis and basketball. I am also an avid cooker, and there is nothing I enjoy more \
+            than cooking for friends and family. I enjoy playing video games and working on personal coding projects that interest me. I am lucky  "
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I graduated from James Madison University in 2016, with degrees in Computer Science and Applied Mathematics. I have been working as a software developer at Vanguard since i graduated. I am currently a \
+            product architect for the Emerging Technology Research Team. I get to spend my time researching the most cutting edge technologies today such as quantum computing, generative AI, tokenization and blockchaining and more. \
+            I help lead pilots and proof of concepts in these areas to help define Vanguards approach moving forward."
         }
       ]
     };
@@ -85,43 +55,18 @@ class About extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
-                        return (
-                          <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.porcentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.porcentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
-                          </React.Fragment>
-                        );
-                      })}
-                    </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
-                      {this.state.about_me.map(content => {
-                        return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
-                        );
-                      })}
+                  <div className="about-me pt-4 pt-md-0">
+                    <div className="title-box-2">
+                      <h5 className="title-center">About Me</h5>
                     </div>
+                    {this.state.about_me.map(content => {
+                      return (
+                        <p className="lead" key={content.id}>
+                          {content.content}
+                        </p>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

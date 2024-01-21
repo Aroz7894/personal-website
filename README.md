@@ -30,9 +30,30 @@ for this site was forked from <https://github.com/shloksomani/react-portfolio>.
 
 ## Installation
 
+These command walk through downloading the necessary dependencies, cloning the repo and installing the necessary node modules.  
+Ensure you have NodeJs, NPM and React downloaded first.
+Run these commands to confirm node and npm are installed:
+
+```bash
+node -v
+npm -v
+```
+
+If they are not, follow this site to download them for your given operating system: [Installing NodeJs and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+Once they are downloaded, React will need to be installed using this command:
+
+```bash
+npm i react
+```
+
 Follow these steps to set up the project locally:
 
-Run the following commands:
+```bash
+git clone <repo-link>
+cd <git hub repo>
+npm install
+```
 
 ## Usage
 
@@ -42,9 +63,6 @@ To start developement on this project follow the commands below. They will have 
 and start the development server.
 
 ```bash
-git clone \<repo-link\>
-cd \<git hub repo\>
-npm install
 cd web-app
 npm start
 ```

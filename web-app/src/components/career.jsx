@@ -53,7 +53,7 @@ class Career extends React.Component {
           id: "tech-lead",
           title: "Technical Lead",
           date: "Nov-2020 - Dec-2023",
-          content: "Led development team of 6 developers, of AWS Glue ETL jobs as well as REST and GraphQL APIs that receive over 1 million requests per month",
+          content1: "Led development team of 6 developers, of AWS Glue ETL jobs as well as REST and GraphQL APIs that receive over 1 million requests per month",
           content2: "Architechted a modern ingestion pipeline accross multiple AWS services.",
           content3: "Was a leader in Site Reliability Engineering for the department, where I lead a community of practice that implemented best practices such as \
            blue/green deployments, multi-region applications and resilience testing. "
@@ -62,7 +62,7 @@ class Career extends React.Component {
           id: "junior-dev",
           title: "Software Developer",
           date: "Oct-2016 - Nov-2020",
-          content: "Worked in an agile development process to maintain and enhance data sourcing applications using Java and Spring framework.",
+          content1: "Worked in an agile development process to maintain and enhance data sourcing applications using Java and Spring framework.",
           content2: "Built and maintained web pages using JavaScript, Java Server Pages (JSP), AngularJs and HTML.",
           content3: "Worked on a large migration effort, that included over 30 microservices, to AWS cloud services that cut department costs"
         }
